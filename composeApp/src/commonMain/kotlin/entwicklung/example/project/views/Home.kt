@@ -12,22 +12,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import cmpdemoapp.composeapp.generated.resources.Res
+import cmpdemoapp.composeapp.generated.resources.home_screen_title
+import cmpdemoapp.composeapp.generated.resources.login_screen_title
+import cmpdemoapp.composeapp.generated.resources.register_screen_title
 import org.jetbrains.compose.resources.StringResource
 
 /**
  * enum values that represent the screen in the app
  */
-/*enum class screen(var title: StringResource) {
-    HOME(title = Res.string.)
+enum class screen(var title: StringResource) {
+     HOME(title = Res.string.home_screen_title),
+     LOGIN(title = Res.string.login_screen_title),
+     REGISTER(title = Res.string.register_screen_title)
 }
-
-@Composable
-fun CupcakeAppBar(
-    currentScreen: screen,
-    canNavigateBack: Boolean,
-    navigateUp: () -> Unit,
-    modifier: Modifier = Modifier
-)*/
 
 @Composable
 fun HomeView()
